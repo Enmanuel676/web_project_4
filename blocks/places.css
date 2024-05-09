@@ -1,0 +1,608 @@
+.places {
+  width: 77.109%;
+  height: 54.837%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 92px;
+  font-family: "Inter";
+  max-width: 984px;
+}
+.places__card {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: auto;
+  column-gap: 40px;
+  margin: 0 auto;
+  grid-template-areas:
+    "title artist"
+    "photo text"
+    "buttom text"
+    ". text";
+  width: 100%;
+}
+.places__title {
+  grid-area: title;
+  margin-left: 3px;
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+.places__subtitle {
+  grid-area: artist;
+  width: 94.215%;
+}
+.places__artist {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #aaa;
+  width: 12.719%;
+}
+.places__author {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  width: 100%;
+}
+.places__photo {
+  grid-area: photo;
+  width: 100%;
+  height: 460px;
+}
+.places__paragraph {
+  grid-area: text;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.34px;
+  margin-top: 48px;
+
+  width: 100%;
+}
+.places__buttom {
+  grid-area: buttom;
+  background-color: #0278fe;
+  color: white;
+  padding: 13px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /*width: 77.174%;*/
+  height: 19.149%;
+  width: 355px;
+}
+.places__buttom:hover {
+  background-color: #0063d2;
+}
+.places__card_ucrania {
+  height: 18.448%;
+
+  width: 100%;
+}
+.places__title_ucrania {
+  margin-bottom: 0;
+  width: 100%;
+
+  height: 100%;
+}
+.places__subtitle_ucrania {
+  margin-top: 107px;
+  height: 29.605%;
+}
+.places__photo_ucrania {
+  margin-top: 48px;
+}
+.places__paragraph_ucrania {
+  height: 76.667%;
+  width: 100%;
+}
+.places__paragraph_first-ukr {
+  margin: 0;
+  height: 44.13%;
+}
+.places__paragraph_second-ukr {
+  margin-top: 25px;
+  height: 50.435%;
+}
+.places__buttom_ucrania {
+  margin-top: 48px;
+}
+.places__card_gales {
+  margin-top: 80px;
+  height: 18.448%;
+}
+.places__title_gales {
+  height: 100%;
+  margin-bottom: 0;
+}
+.places__subtitle_gales {
+  margin-top: 85px;
+  height: 44.079%;
+}
+.places__author_first {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.places__author_second {
+  margin-top: 0;
+}
+.places__photo_gales {
+  margin-top: 48px;
+}
+.places__paragraph_gales {
+  box-sizing: border-box;
+  height: 82.107%;
+}
+.places__paragraph_first-gales {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 35.438%;
+}
+.places__paragraph_second-gales {
+  margin-top: 56px;
+  margin-bottom: 0;
+  height: 53.157%;
+}
+.places__buttom_gales {
+  margin-top: 48px;
+}
+.places__card_eua {
+  height: 17.692%;
+  margin-top: 35px;
+}
+.places__title_eua {
+  width: 127%;
+  height: 100%;
+  z-index: 1;
+  margin-bottom: 0;
+}
+.places__subtitle_eua {
+  height: 29.605%;
+  margin-top: 76px;
+  margin-bottom: 0;
+}
+.places__photo_eua {
+  margin-top: 17px;
+}
+.places__paragraph_eua {
+  margin-top: 17px;
+  height: 89.631%;
+}
+.places__paragraph_first-eua {
+  margin: 0;
+  height: 56.863%;
+}
+.places__paragraph_second-eua {
+  margin-top: 17px;
+
+  height: 39.804%;
+}
+.places__buttom_eua {
+  margin-top: 48px;
+}
+.places__card_burundi {
+  margin-top: 80px;
+  height: 20.961%;
+}
+.places__title_burundi {
+  width: 100%;
+  height: 100%;
+}
+.places__subtitle_burundi {
+  height: 29.605%;
+  margin-top: 107px;
+}
+.places__photo_burundi {
+  margin-top: 48px;
+}
+.places__paragraph_burundi {
+  margin-top: 48px;
+  height: 93.3%;
+}
+.places__paragraph_first-burundi {
+  height: 26.087%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.places__paragraph_second-burundi {
+  margin-top: 25px;
+  margin-bottom: 0;
+  height: 30.435%;
+}
+.places__paragraph_third-burundi {
+  margin-top: 25px;
+
+  margin-bottom: 0;
+  height: 34.783%;
+  width: 100%;
+}
+.places__buttom_burundi {
+  margin-top: 48px;
+}
+.places__card_cuba {
+  margin-top: 80px;
+  height: 18.448%;
+}
+.places__title_cuba {
+  height: 100%;
+}
+.places__subtitle_cuba {
+  height: 29.605%;
+  margin-top: 107px;
+}
+.places__photo_cuba {
+  margin-top: 48px;
+}
+.places__paragraph_cuba {
+  width: 100%;
+  height: 76.412%;
+}
+
+.places__paragraph_first-cuba {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 31.739%;
+}
+.places__paragraph_second-cuba {
+  margin-top: 50px;
+  height: 57.391%;
+}
+.places__buttom_cuba {
+  margin-top: 48px;
+}
+@media screen and (max-width: 1200px) {
+  .places {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .places {
+    width: 93.75%;
+    height: 45.841%;
+    margin-top: 88px;
+  }
+  .places__card {
+    grid-template-columns: 340px 352px;
+    column-gap: 28px;
+  }
+  .places__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .places__subtitle {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+  }
+  .places__photo {
+    height: 340px;
+    margin-top: 24px;
+  }
+  .places__buttom {
+    width: 96%;
+  }
+  .places__card_ucrania {
+    height: 17.73%;
+  }
+  .places__title_ucrania {
+    height: 67.647%;
+  }
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 26.08px;
+    margin-bottom: 0;
+    margin-top: 24px;
+  }
+  .places__paragraph_ucrania {
+    height: 94.776%;
+  }
+  .places__paragraph_first-ukr {
+    height: 46.063%;
+    margin-top: 0;
+  }
+  .places__paragraph_second-ukr {
+    margin-top: 14px;
+    height: 51.181%;
+  }
+  .places__card_gales {
+    margin-top: 31px;
+    height: 18.676%;
+  }
+  .places__title_gales {
+    height: 51.685%;
+    margin-top: 21px;
+  }
+  .places__subtitle_gales {
+    height: 95.699%;
+  }
+  .places__paragraph_gales {
+    margin-top: 24px;
+
+    height: 95%;
+  }
+  .places__paragraph_first-gales {
+    margin-top: 0;
+    height: 40.077%;
+  }
+  .places__paragraph_second-gales {
+    height: 55.106%;
+    margin-top: 25px;
+  }
+  .places__card_eua {
+    height: 18.735%;
+    margin-top: 46px;
+  }
+  .places__title_eua {
+    width: 100%;
+  }
+  .places__subtite_eua {
+    height: 48.387%;
+  }
+  .places__photo_eua {
+    margin-top: 2px;
+  }
+  .places__paragraph_eua {
+    margin-top: 2px;
+    height: 99.083%;
+  }
+  .places__paragraph_first-eua {
+    margin-top: 0;
+    height: 57.778%;
+  }
+  .places__paragraph_second-eua {
+    margin-top: 20px;
+    height: 38.519%;
+  }
+  .places__card_burundi {
+    height: 24.97%;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .places__title_burundi {
+    height: 100%;
+  }
+  .places__subtitle_burundi {
+    margin-top: 48px;
+    height: 48.387%;
+  }
+  .places__photo_burundi {
+    margin-top: 48px;
+  }
+  .places__paragraph_burundi {
+    height: 96.5%;
+  }
+  .places__paragraph_first-burundi {
+    margin-top: 0;
+    height: 28.729%;
+  }
+  .places__paragraph_second-burundi {
+    height: 32.32%;
+    margin-top: 11px;
+  }
+  .places__paragraph_third-burundi {
+    height: 35.912%;
+    margin-top: 11px;
+  }
+  .places__card_cuba {
+    height: 15.662%;
+    margin-top: 41px;
+  }
+  .places__title_cuba {
+    height: 100%;
+  }
+  .places__subtitle_cuba {
+    margin-top: 48px;
+    height: 48.387%;
+  }
+  .places__photo_cuba {
+    margin-top: 25px;
+  }
+  .places__paragraph_cuba {
+    margin-top: 25px;
+
+    height: 93.5%;
+  }
+  .places__paragraph_first-cuba {
+    margin-top: 0;
+    height: 31.489%;
+  }
+  .places__paragraph_second-cuba {
+    margin-top: 55px;
+
+    height: 57.234%;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .places {
+    width: 100%;
+    height: 65.105%;
+    margin-top: 65px;
+    max-width: 320px;
+  }
+  .places__card {
+    display: flex;
+    flex-direction: column;
+  }
+  .places__title {
+    font-size: 32px;
+    line-height: 35px;
+
+    width: 90%;
+    margin: auto;
+  }
+  .places__subtitle {
+    margin: auto;
+    width: 90%;
+  }
+  .places__photo {
+    height: 320px;
+    margin-top: 30px;
+    max-width: 320px;
+  }
+  .places__paragraph {
+    width: 90%;
+    margin: auto;
+  }
+  .places__buttom {
+    width: 100%;
+    width: 82.5%;
+    font-size: 14px;
+    line-height: 16.94px;
+    margin: auto;
+  }
+  .places__card_ucrania {
+    height: 18.653%;
+  }
+  .places__title_ucrania {
+    height: 3.849%;
+  }
+  .places__subtitle_ucrania {
+    margin-top: 30px;
+    height: 5.731%;
+  }
+  .places__photo_ucrania {
+    margin-top: 30px;
+    height: 320px;
+  }
+  .places__paragraph_ucrania {
+    width: 100%;
+    height: 53.978%;
+  }
+  .places__paragraph_first-ukr {
+    height: 45.325%;
+  }
+  .places__paragraph_second-ukr {
+    height: 53.566%;
+    margin-top: 11px;
+  }
+  .places__buttom_ucrania {
+    margin-top: 8px;
+    height: 4.106%;
+  }
+  .places__card_gales {
+    height: 19.292%;
+  }
+  .places__title_gales {
+    height: 2.895%;
+  }
+  .places__subtitle_gales {
+    height: 7.361%;
+    margin-top: 30px;
+  }
+  .places__photo_gales {
+    height: 26.468%;
+  }
+  .places__paragraph_gales {
+    height: 52.44%;
+    margin-top: 16px;
+    width: 100%;
+  }
+  .places__paragraph_first-gales {
+    height: 41.009%;
+  }
+  .places__paragraph_second-gales {
+    height: 57.413%;
+    margin-top: 11px;
+  }
+  .places__buttom_gales {
+    margin-top: 7px;
+  }
+  .places__card_eua {
+    height: 19.235%;
+  }
+  .places__title_eua {
+    height: 35px;
+  }
+  .places__subtitle_eua {
+    margin-top: 44px;
+    height: 3.794%;
+  }
+  .places__photo_eua {
+    margin-top: 30px;
+    height: 26.981%;
+  }
+  .places__paragraph_eua {
+    margin-top: 8px;
+    height: 54.806%;
+    width: 100%;
+  }
+  .places__buttom_eua {
+    margin-top: 6px;
+  }
+  .places__card_burundi {
+    height: 22.8%;
+    margin-top: 17px;
+  }
+  .places__title_burundi {
+    height: 4.885%;
+  }
+  .places__subtitle_burundi {
+    margin-top: 30px;
+    height: 4.676%;
+  }
+  .places__photo_burundi {
+    margin-top: 17px;
+    height: 22.331%;
+  }
+  .places__paragraph_burundi {
+    margin-top: 30px;
+    height: 59.735%;
+  }
+  .places__paragraph_first-burundi {
+    width: 100%;
+    height: 27.336%;
+  }
+  .places__paragraph_second-burundi {
+    width: 100%;
+    height: 30.374%;
+    margin-top: 25px;
+  }
+  .places__paragraph_third-burundi {
+    width: 100%;
+    height: 36.449%;
+    margin-top: 25px;
+  }
+  .places__buttom_burundi {
+    height: 5.607%;
+    margin-top: 4px;
+  }
+  .places__card_cuba {
+    height: 18.6%;
+
+    margin-top: 50px;
+  }
+  .places__subtitle_cuba {
+    height: 3.849%;
+    margin-top: 30px;
+  }
+  .places__photo_cuba {
+    height: 27.374%;
+    margin-top: 30px;
+  }
+  .places__paragraph_cuba {
+    height: 53.721%;
+    margin-top: 30px;
+    width: 90%;
+  }
+  .places__paragraph_first-cuba {
+    height: 45.541%;
+    width: 100%;
+  }
+  .places__paragraph_second-cuba {
+    width: 100%;
+    height: 53.822%;
+    margin-top: 7px;
+  }
+  .places__buttom_cuba {
+    height: 4.106%;
+    margin: 8px;
+  }
+}

@@ -1,0 +1,13 @@
+body {
+  background-color: #2a2c2f;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  max-width: 1280px;
+  margin: auto;
+}

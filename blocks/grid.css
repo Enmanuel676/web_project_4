@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  width: 92.5%;
+  height: 5.915%;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  grid-template-rows: repeat;
+  margin-top: 118px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 16px;
+}
+.grid__photo {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .grid {
+    width: 93.75%;
+    height: 14.955%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .grid {
+    margin-top: 38px;
+    width: 90%;
+    height: 18.824%;
+  }
+}
